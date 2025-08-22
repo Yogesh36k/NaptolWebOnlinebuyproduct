@@ -20,7 +20,16 @@ It covers scenarios such as:
 - Add to Cart and Checkout workflow  
 - Error handling for invalid inputs  
 
+***
 
+
+## 📑 Table of Contents  
+- Project Overview
+- Technology Stack]
+- How to Run the Tests
+- Project Structure
+- Future Enhancements
+ 
 
 
 ***
@@ -33,14 +42,32 @@ It covers scenarios such as:
 .git
    cd NaptolWebOnlinebuyproduct
    ***
-   ## 📂 Project Structure
-   Naaptol_Automation/
-│── src/main/java/
-│   ├── pages/         # Page Object classes
-│   ├── tests/         # Test cases
-│   ├── utils/         # Utility classes
-│
-│── testng.xml         # TestNG runner 
-│── pom.xml            # Maven dependencies 
-│── README.md          # Project Documentation
 
+   ## ✨ Future Enhancements  
+
+- Automate **Wishlist functionality** (add/remove products).  
+- Cover **Compare Products feature** with different categories.  
+- Automate **Checkout with multiple payment methods** (Credit Card, Net Banking, UPI, Cash on Delivery).  
+- Implement **Order Tracking automation** after purchase.  
+- Add validations for **Discounts, Coupons, and Offers**.  
+- Enhance **Search functionality testing** (filters, price ranges, categories).  
+- Automate **User Registration & Profile Management** scenarios.  
+- Validate **Cart persistence** across sessions (login/logout).  
+- Integrate with **Extent Reports & Allure Reports** for detailed results.  
+- Run **Cross-browser & Mobile responsive tests** for Naaptol’s website.  
+***
+   ## 📂 Project Structure
+   
+```
+|-- src
+|   |-- main
+|   |   |-- java
+|   |   |   |-- pages              # Page Object Model classes
+|   |   |   |-- utils              # Utility classes (e.g., WebDriver manager)
+|   |-- test
+|   |   |-- java
+|   |   |   |-- testcases         # TestNG test cases
+|   |-- resources
+|       |-- extent-config.xml     # Configuration for Extent Reports
+|-- test-output
+|   |-- ExtentReports.html        # Generated test report
